@@ -1,0 +1,8 @@
+# Status Notes:
+
+## Version 18 -desktop gold
+In pretty good state for desktop, just about to start work on making mobile layout work out properly.
+Mostly what still needs to be finished is the demo case study.
+
+
+

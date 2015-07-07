@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- disabling responsiveness for now: uncomment below later on -->
+   <!-- <meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <title>An App for Spreadsheets</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/casestudy.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	
+  </head>
+  <body>
+    
+
+	<nav class="navbar navbar-default navbar-fixed-top" style="border-bottom:0;">
+	  <div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <a class="navbar-brand" href="#">Goblet Case Study Framework</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav">
+			<li><a href="#">Getting Started </a></li>
+			<li class="dropdown">
+			  <a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-expanded="false">Examples <span class="caret"></span></a>
+			  <ul class="dropdown-menu" role="menu">
+				<li><a href="#">Blank Template</a></li>
+				<li><a href="#">Spreadsheets</a></li>
+			  </ul>
+			</li>
+		  </ul>
+		  <ul class="nav navbar-nav navbar-right">
+			<li><a href="#">Showcase</a></li>
+		  </ul>
+		</div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+    <div class="zhero zhero-phone-example" >
+	    <div class="container">
+	    	<div class="row">
+				<div class="col-sm-4 col-sm-offset-1  col-md-4 col-md-offset-2 col-lg-4">
+					<div class="zhero-textbox">
+						<H4 class="zhero-textbox-byline">A <span class="zhero-textbox-byline-highlight">UX CASE STUDY</SPAN> BY MATTHEW&nbsp;WEBER</h4>
+						<h1 class="zhero-textbox-headline">An App for Presenting Spreadsheets</h1>
+						<a class="zhero-scrollhint" id="scrolldown">
+							<span  class="glyphicon glyphicon-chevron-down"></span>
+							<span class="zhero-scrollhint-label">Scroll Down</span>
+						</a>
+
+					</div>
+				</div>
+				<div class="col-sm-3 col-xs-12 zhero-device-image">
+					<div class="zhero-device-screen">
+						<div class="zhero-device-screen-headline">Hello.</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+    <div class="container" id="main">
+    	<div class="row">
+			<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+				<h1 class="page-header">Users Need Spreadsheets to Look Good</h1>
+				<p>
+					In my surveys and interviews, I found that <b>over 90% of the spreadsheet users surveyed present their data to other people</b>. The majority of the time when users share their spreadsheets with others, it is of <b>simple lists</b> and <b>calculations</b>. Over half of these users complained about the difficult of styling spreadsheets for presentations. Leveraging these insights, I prototyped and tested Schmancy &mdash; a new kind of app that is focused on beautifully styling spreadsheets for presentation, ridiculously fast.
+				</p>
+				<h2>Survey reveals how people really use spreadsheets</h2>
+				<p>
+					My survey was held on September 30th 2014, and included 30 spreadsheet users, who were acquired through Amazon Turk. The survey followed the qualitative survey model from Qualitative.io. Survey takers were asked about what happens, before, during, and after they use a spreadsheet. This process reveals insight about the needs and actual behavior of users.
+				</p>	
+				<p>
+					The survey produced three major discoveries: that about <b>half the users are performing many quick and simple calculations</b>, that <b>design and layout is a major painpoint</b>, and the vast majority of people <b>share their work</b> with someone else.
+				</p>
+				<p>
+					<img src="images/survey-analysis.gif" class="img-responsive" />
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="zwide-gallery">
+		<div class="container">
+			<div class="row">
+			
+				<div class="col-lg-10 col-lg-offset-1 col-xs-12">
+					<div class="row">
+						<div class="col-sm-4 col-xs-12">
+							<a href="https://matthew11.typeform.com/to/QjzJ4y" target="_blank"><img src="images/form-thumbnail.png" class="img-responsive hidden-xs" /></a>
+							<p class="zwide-gallery-caption">View the <a href="https://matthew11.typeform.com/to/QjzJ4y" target="_blank">form</a> that was given to survey participants</p>
+						</div>
+						<div class="col-sm-4 col-xs-12">
+							<a href="http://www.qualitative.io/results.xslx.zip" target="_blank" class="hidden-xs"><img src="images/data-thumbnail.gif" class="img-responsive" /></a>
+							<p class="zwide-gallery-caption">Download the <a href="http://www.qualitative.io/results.xslx.zip" target="_blank">raw data</a> from the survey</p>
+						</div>
+						<div class="col-sm-4 col-xs-12">
+							<a href="user-downloads/survey-analysis-high-resolution.jpg" target="_blank" class="hidden-xs"><img src="images/analysis-thumbnail.jpg" class="img-responsive" /></a>
+							<p class="zwide-gallery-caption">Download a <a href="user-downloads/survey-analysis-high-resolution.jpg" target="_blank">high resolution</a> photo of the survey analysis.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">				
+			<div class="col-sm-10 col-sm-offset-1 col-xs-12  col-md-8  col-md-offset-2 ">
+				<h2>Big Opportunity for &ldquo;Online Calculators&rdquo;</h2>
+
+				<p>To discover what could be used to drive traffic to my app, I used Google’s Keyword Planner tool, which shows how often users search for particular search terms, and what degree of competition there is to reach these users. I found a high degree of search activity around "online calculators" – over 800,000 monthly searches – with a low level of competition. Compared to "spreadsheet" which has only 100,000 monthly searches, "calculator" presents an untapped opportunity.</p>
+				<p>It became clear that there was an opportunity to tap into this search traffic, by creating specific landing pages targeting a large variety of vertical markets and niche uses, such as "online sales calculator", "online revenue calculator", "estimate calculator" and so on. </p>
+				<p>
+					<img src="images/keywords.jpg" class="img-responsive" />
+				</p>
+
+				<!-- C O M P E T I T I V E   R E S E A R C H -->
+				<h2>Competitors Are Built for Collaboration, <br/>Not for Making Spreadsheets Look Good</h2>
+				<p>
+					In the last few years, developers have added a lot of social features into spreadsheets, making it easier to share raw data. However, there has been little focus on the presentation spreadsheets – something that can tell the story behind the data. 
+				</p>
+				<p>
+					For example, if a user has a quick calculation and sends it off to a client or other department, it is typically copy and pasted from Excel into some other application such as PowerPoint. While this is the easiest thing to do right now, it <b>renders the data dead</b>, unable to be explored by the user. This flies in the face of growing demand by a data audience who want to explore data themselves, as opposed to being handed static PowerPoints (footnote to Brendan Doohan). 
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+				<div class="row">
+					<div class="col-xs-12 col-sm-4">
+						<p class="competition-logo">
+							<img src="images/microsoft2.gif" class="img-responsive" />
+						</p>
+						<p class="ul-header">Pros</p>
+						<ul>
+							<li>World-wide standard</li>
+							<li>Feature rich</li>
+							<li>Collaborative features</li>
+						</ul>
+						
+						<p class="ul-header">Cons</p>
+						<ul>
+							<li>No presentation features (PowerPoint dependent)</li>
+							<li>License required</li>
+							<li>Complex</li>
+
+						</ul>
+				
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<p class="competition-logo">
+							<img src="images/google2.gif" class="img-responsive" />
+						</p>
+						<p class="ul-header">Pros</p>
+						<ul>
+							<li>Extremely strong collaboration features</li>
+							<li>Free</li>
+							<li>Basic features</li>
+						</ul>
+						
+						<p class="ul-header">Cons</p>
+						<ul>
+							<li>No presentation features</li>
+							<li>Must have Google account to edit</li>
+							<li>Looks terrible</li>
+						</ul>
+				
+					</div>
+					<div class="col-xs-12  col-sm-4">
+						<p class="competition-logo">
+							<img src="images/libre-office2.gif" class="img-responsive" />
+						</p>
+						<p class="ul-header">Pros</p>
+						<ul>
+							<li>Free</li>
+							<li>Capable</li>
+							<li>Some collaboration</li>
+						</ul>
+						
+						<p class="ul-header">Cons</p>
+						<ul>
+							<li>No presentation features</li>
+							<li>Complex</li>
+							<li>Looks terrible</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+				
+		<div class="row">
+			<div class="col-sm-10 col-sm-offset-1  col-md-8 col-md-offset-2 col-xs-12">		
+				<h1 class="page-header">Developing the Strategy: <br/>Focus on Making Spreadsheets Look Good</h1>
+				<p>
+					From my initial research I knew what problem set I was going to address, but I still needed to develop a strategy for demonstrating value, building traffic, and how it was going to be monetized. This was an iterative activity, that was focused on quick evolution of ideas. 
+				</p>
+				<div class="row galleryrow">
+			
+					<div class="col-sm-4 col-xs-12">
+						<img src="images/sketch-sitemap.jpg" class="img-responsive zoomable-thumbnail" alt="The core idea of the site is to make it dirt simple to make a spreadsheet worth sharing, make it beautiful, and then share it with other people."/>
+					</div>
+					<div class="col-sm-4 col-xs-12">
+						<img src="images/sketch-mobile-transitions.jpg" alt="I initially conceived of a mobile view of the site that would be optimized towards consumption, not creation. It's main focus would be to captivate and create conversations within a small intimate space between people." class="img-responsive zoomable-thumbnail" />
+					</div>
+					<div class="col-sm-4 col-xs-12">
+						<img src="images/sketch-style.jpg" class="img-responsive zoomable-thumbnail" alt="The spreadsheet will automatically be styled as soon as you put in a URL. Via algorithms and flesh-and-blood workers, it would take aspects of the design from the URL and apply it to the spreadsheet. E.g., color scheme, photos, etc." />
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">			
+				<h2>Different Teams, Working Together</h2>
+				<p>
+					I developed a set of use cases and a scenario between users, to create a focus on what kinds features would be required by the app. These use cases center around a fictional car dealership and their accounting firm. 
+				</p>
+	
+				<!-- S I T E  M A P -->
+								
+				<div class="row">
+					<div class="col-xs-12 col-sm-4">
+						<h4 style="color:#ff0000;">Roberta the Manager</h4>
+						<p>Roberta runs the accounting firm, is James' boss, and is the primary contact for the client.</p>
+						<p><i>Illustrated Use Case: Roberta logs in to review work from James, before sharing with Charles the Client. </i></p>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<h4 style="color:#009900;">James the Accountant</h4>
+						<p>James works at an accounting firm. His biggest client is a successful car dealership.</p>
+						<p><i>Illustrated Use Case:James discovers Schmancy via Google. He pastes his spreadsheet data, exports it to Powerpoint, and shares with Roberta.</i></p>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<h4 style="color:#990099;">Charles the Client</h4>
+						<p>Charles is James the Accountant's client, and is the general manager of "Car Universe", on Route 46.</p>
+						<p><i>Illustrated Use Case: Charles is able to see the presentation, and can sort and organize the data from there.</i></p>
+					</div>
+				</div>
+		
+				<div class="row">
+					<div class="col-xs-12" style="margin:30px 0;">
+						<img src="images/sitemap.png" class="img-responsive" style="border:0;"/>
+					</div>
+			
+				</div>
+			
+			</div>
+			<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">			
+				
+				<h2>Demonstrating Value: Instant Styling</h2>
+				<p>
+					With extremely entrenched competition like Excel, <b>my app needed to prove its value instantly</b> to users when they first encounter it. Since the research showed that <B>users need to make their spreadsheets look good</b> and that formatting that data was time consuming, I decided to tackle a baseline of making it 20x faster for users to present their data.  
+				</p>
+				<p>
+					<b>The spreadsheet would "suck in" the style of any website by giving it a URL.</b> For example, if a user put in "www.apple.com", the application would suck in and apply the typography, images, layout, etc to the aforementioned spreadsheet. The actual application of the style would be accomplished by a combination of computer-readable style elements, heuristics, and human workers behind the scenes.
+				</p>
+				
+  				
+
+				
+				<h2>Generating Traffic: Calculator Landing Pages</h2>
+				<p>
+					Leveraging the keyword research earlier on, the app would have <i>hundreds</i> of different landing pages for all sorts of verticals that may need a predefined "calculator" that can be styled for their unique needs.
+				</p>
+			
+				<h2>Monetization: Pay to Lock It Down</h2>
+				<p>
+					The application will be free to use and to share data with. By the presentation-nature of the application, the more viral it is, then more successful it will be. However, due also to the sensitive nature of business data, there are many cases where users may want to "lock it down", that is, require some level of password clearance. This is where the app can be monetized – offering enterprise-level security to the app by subscription. The security subscription can make sure only authenticated users can view presentations, and can integrated with single-signon technologies.
+				</p>		
+				
+				
+				<h1 class="page-header">Prototype</h1>
+				<p>Usability is a high-level goal for the application, and so several rounds of prototypes were created to run usability tests with. The first prototype was a raw paper-based prototype, on which to test my initial assumptions. After applying lessons learned from the first prototype, I quickly iterated and built a more refined interactive prototype.</p>
+
+
+			</div>
+		
+		</div>
+	</div>
+	
+	<div class="zwide-gallery">
+		<div class="container">
+			<div class="row">
+			
+				<div class="col-md-8 col-md-offset-2 ">
+					<p class="embed-responsive embed-responsive-16by9" >
+						<iframe src="http://www.youtube.com/embed/7qxGZYTLRhA"  class="embed-responsive-item" ></iframe>
+					</p>
+				</div>
+				<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 ">
+					
+						<h2>Top Findings of First Prototype Usability Test</h2>
+						<ul>
+							<li>2 of 3 users didn't realize they did not have to register to continue</li>
+							<li>3 of 3 users wanted to print the final results</li>
+							<li>2 of 3 users has affordance issues with a reordering widget</li>
+						</ul>
+				</div>
+				
+				
+			</div>
+		</div>
+	</div>
+				
+				
+				
+				
+	<div class="container">
+		<div class="row">
+				
+			<div class="col-md-8  col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">		
+				
+				<h2>Second Prototype: Users Loved It</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				
+				<p><img src="images/placeholder1.jpg" alt="Description goes here" class="img-responsive " /></p>
+				<h3>Top Findings from Second Prototype:</strong></h3>
+				<ul>
+					<li>3 of 3 participants lorem ipsum dolor sit amit e pluribus unum</li>
+					<li>3 of 3 participants lorem ipsum dolor sit amit e pluribus unum</li>
+					<li>2 of 3 participants lorem ipsum dolor sit amit e pluribus unum</li>
+				</ul>
+				
+				<blockquote>
+					<p>A positive quote goes here.</p>
+					<footer>Test Participant 1</footer>
+				</blockquote>
+
+				<blockquote>
+					<p>Lorem ipsum dolor sit amit. Another positive quote goes here.</p>
+					<footer>Test Participant 2</footer>
+				</blockquote>
+				<div class="row">
+					<div class="col-xs-12  " >
+						<h1 class="page-header">Making it Real</h1>
+						<p>It was clear from my initial survey that <b>users need their spreadsheets to look good</b>, which drove the rest of the project to build an app where users could beautifully style their spreadsheets for presentation, ridiculously fast. What was left was to build wireframes as a specification for developers, and to refine the prototype once more.</p>
+						<h2>Future Steps</h2>
+						<p>The next steps for production, would be to generate the landing pages to make sure the traffic hypothesis is correct, as this is a testable assumption without even the application. Assuming enough traffic is generated, the first public version would be generated. The "instant design" would start off with humans behind the scenes, actually assembling the pages. This is to identify patterns as to which elements are easiest to automate. This does mean a slow styling feature in the beginning, but it allows us to see what design challenges actually come up in the wild first.</p>
+						<h2>Final Wireframes: Ready for Production</h2>
+						<p><img src="images/wireframes-screenshots-1.png" class="img-responsive big-wireframe" /></p>
+						<p><img src="images/wireframes-screenshots-2.png" class="img-responsive big-wireframe" /></p>
+						<p><img src="images/wireframes-screenshots-3.png" class="img-responsive big-wireframe" /></p>
+						<div class="row">
+							<div class="col-sm-4 col-xs-12">
+								<img src="images/wireframes-screenshots-4.png" class="img-responsive zoomable-thumbnail" alt="While you can use Schmancy as a simple spreadsheet, it is meant to easily work with whatever tools a user might already be used to having, and take the drudgery out of presentation."/>
+							</div>
+							<div class="col-sm-4 col-xs-12 ">
+								<img src="images/wireframes-screenshots-6.png" alt="The 'Share' screen is where the application is monetized, where a user has to pay in order to access the 'Lock Down' password features. " class="img-responsive zoomable-thumbnail" />
+							</div>
+							<div class="col-sm-4 col-xs-12">
+								<img src="images/wireframes-screenshots-5.png" class="img-responsive zoomable-thumbnail" alt="Unlike a traditional spreadsheet with a limitless field of cells, the viewable area is strictly controlled by the user in order to enhance the overall presentation of the data." />
+							</div>
+						</div>
+
+					</div>	
+					<div class="col-xs-12">	
+						<div class="callout-buttonbg">
+							<a role="button" class="btn btn-default callout-button" href="#">Download All Wireframes as PDF</a> <span class="callout-button-hint">See all 28 pages of wireframes</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8  col-md-offset-2 col-sm-10 col-sm-offset-1 finale col-xs-12">
+				<h1 >Try it Yourself</h1>
+				<p>In this prototype, you’ll be able to enter data, make your spreadsheet look good, and share it with your colleagues.</p>
+				<a  class="giant-cta" href="#">Launch Prototype</a>
+			</div>
+		
+		
+   		</div>
+   		
+   		
+   		
+   	</div>
+	<div class="zpagefooter">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 ">
+					<div class="zcredit">
+						<div class="thumb" style="background-image:url('images/matthewweber.jpg');"></div>
+						<p>This case study was created by <b>Matthew&nbsp;Weber</b>.  He created it to help his students  in the UX&nbsp;Portfolio class he teaches at NYU. All of the data presented here is real.
+							<br/><a href="#">Learn more about Matthew Weber</a>
+							<br/><a href="#">See the UX Portfolio Class Website</a>
+						</p>
+					</div>
+					<div class="zcredit">
+						<div class="thumb" style="background-image:url('images/nyu.svg');"></div>
+						<p>The <b>Advanced UX Certificate</b> at NYU is a hands on program to create portfolio-ready assets that demonstrate the essential capabilities that are sought after by employers.
+							<br/><a href="#">Learn more about the NYU Advanced UX Certificate</a>
+						</p>
+					</div>
+					<div class="zcredit">
+						<div class="thumb" style="background-image:url('images/goblet.svg');"></div>
+						<p>This case study was created with <b>Goblet, the Case Study Framework</b>. Goblet is also maintained by Matthew Weber.
+							<br/><a href="#">Learn more about Goblet.io</a>
+						</p>
+					</div>
+					<div class="zcredit">
+						<div class="thumb" style="background-image:url('images/qualitative.svg');"></div>
+						<p>This example project uses the survey template from <b>Qualitative.io</b>, which is also maintained by Matthew Weber.
+							<br/><a href="#">Learn more about Qualitative.io</a>
+						</p>
+					</div>
+					
+					<hr/>
+					<p class="footnote">Image Credits</p>
+					<ul class="footnote">
+						<li>"Roberta" icon designed by <a href="http://www.thenounproject.com/Lil Squid">Lil Squid</a> from the <a href="http://www.thenounproject.com">Noun Project</a>
+						<li>"James" icon designed by <a href="http://www.thenounproject.com/Lil Squid">Lil Squid</a> from the <a href="http://www.thenounproject.com">Noun Project</a>
+						<li>"Charles" icon designed by <a href="http://www.thenounproject.com/Lil Squid">Lil Squid</a> from the <a href="http://www.thenounproject.com">Noun Project</a></li>
+						<li>Generic Phone Hand by Matthew Weber</li>
+						<li>Generic Computer by Matthew Weber</li>
+					</ul>
+					<p class="footnote">Copyright 2015 Matthew Weber</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-lg">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+			<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+		  </div>
+		  <div class="modal-body">
+			<div style="background-color:#ff0099; width:1500px;">1500px</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+   	
+   	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- use for pie charts -->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+    <script src="js/casestudy.js"></script>
+  </body>
+</html>
