@@ -15,7 +15,7 @@ h4 {font-size: 16px;}
 .zhero-textbox-headline {margin-top:0px !important; font-Size:50px;}
 
 .zhero-cta {background-color:#0054ff;  padding-left:70px; padding-right:70px; margin-top:10px;font-weight:bold;}
-.zhero-phone-example .zhero-device-image {postion:relative; height:500px; margin-top:30px; width:435px; background-repeat: no-repeat; background-image:url('../images/hand.png'); background-size: contain;}
+.zhero-phone-example .zhero-device-image {postion:relative; height:500px; margin-top:30px; width:435px; background-repeat: no-repeat; background-image:url('../images/hand.png'); background-size:435px 500px;}
 .zhero-phone-example .zhero-device-screen {background-color:#ffff66; width:183px; height:320px; position:absolute; top:61px; left:72px; border:2px solid #000;}
 .zhero-phone-example .zhero-device-screen-headline {font-size:48px; font-weight: bold; padding:100px 10px;}
 
@@ -140,11 +140,10 @@ p  {font-size:20px; line-height:160%; color:#333; font-weight:300; margin-bottom
 	.zhero-textbox {margin-top:20px; border:0;}
 	.zhero-textbox-byline {border:0; margin-bottom:0; text-align:center;}
 	.zhero-textbox-headline {font-size:30px; margin-top:0;text-align:center;}
-	.zhero-phone-example .zhero-device-image { text-align:center; margin-left:50px; }
 	.zhero-textbox {text-align:center;}
 	.zhero-scrollhint { margin-top: 10px;}
 	.zhero-textbox-byline {font-size:12px; margin-bottom:0; padding-bottom:5px;}
-	.zhero-phone-example .zhero-device-image { margin-left: calc(( 100% / 2 ) - 165px ); }
+	.zhero-phone-example .zhero-device-image { text-align:center; margin-left: calc(( 100% / 2 ) - 165px ); }
 	.zhero-scrollhint {display:none;}
 	p {font-size: 16px; margin-bottom:13px;}
 	.zwide-gallery {margin-top:0; padding-top:15px; padding-bottom:0px; margin:0 20px; }
