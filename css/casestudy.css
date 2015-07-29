@@ -104,12 +104,15 @@ p  {font-size:20px; line-height:160%; color:#333; font-weight:300; margin-bottom
 .giant-cta {background-color:#428bcb; font-weight:bold; font-size:32px; 
 	color:#fff; padding:10px 20px 10px 65px; border-radius:8px; text-shadow:0 1px #333; 
 	box-shadow: 0 1px #333, inset 0 1px #f5f5f5; border:0;
-	display:inline-block; position:relative;
+	display:inline-block; position:relative; text-decoration:none;
 	 }
 .giant-cta:hover {color:white; text-decoration:none; background-color:#046c98;} 
 .giant-cta:before { height:40px; position:absolute; left:10px; display:inline-block; top:12px;
 	bottom:2px; background-image: url(../images/prompt.svg); content: ""; font-size:1; width:40px; }
-.giant-cta:visited {color:white; text-decoration:none; }
+.giant-cta:visited, .giant-cta:active, .giant-cta:link, .giant-cta:visited,  .giant-cta:focus   {color:white; text-decoration:none; }
+
+
+
 
 /* footer */
 .zpagefooter { background-color:#ccc; padding-top:50px; margin-top:70px;}
@@ -143,7 +146,10 @@ p  {font-size:20px; line-height:160%; color:#333; font-weight:300; margin-bottom
 	.zhero-textbox {text-align:center;}
 	.zhero-scrollhint { margin-top: 10px;}
 	.zhero-textbox-byline {font-size:12px; margin-bottom:0; padding-bottom:5px;}
-	.zhero-phone-example .zhero-device-image { text-align:center; margin-left: calc(( 100% / 2 ) - 165px ); }
+	.zhero-phone-example .zhero-device-image { 
+		text-align:center; margin-left: calc(( 100% / 2 ) - 165px ); 
+		width: calc(100vw - (( 100% / 2 ) - 165px ) );	
+	}
 	.zhero-scrollhint {display:none;}
 	p {font-size: 16px; margin-bottom:13px;}
 	.zwide-gallery {margin-top:0; padding-top:15px; padding-bottom:0px; margin:0 20px; }
