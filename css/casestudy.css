@@ -219,6 +219,7 @@ p  {font-size:20px; line-height:160%; color:#333; font-weight:300; margin-bottom
 	h2 {font-size:28px;}
 	p {font-size:18px;}
 	.giant-cta {font-size:28px;}
+	.col-md-8 li  {font-size:14px; line-height:140%; color:#333; font-weight:300; }
 	
  }
 @media (min-width: 1120px) { 

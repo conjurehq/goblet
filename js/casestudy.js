@@ -44,44 +44,6 @@ var g = {};
 
         });
 
-/*
-        console.log("c");
-
-        var data = google.visualization.arrayToDataTable([
-              ['Finding', 'Hours per Day'],
-              ['Work',     11],
-              ['Eat',      20]
-            ]);
-
-
-        var options = {
-          pieHole: 0.4,
-          enableInteractivity: false,
-          backgroundColor: "#ccc",
-          chartArea:{left:0,top:0,width:'100%',height:'100%', backgroundColor: "#ccc"},
-          legend: {position: "none"},
-
-        };
-
-        var chartIsDrawnHandler = function (){
-            var aaa = footest;
-            console.log("chart is drawn!" , chart);
-            debugger;
-
-            $(".stat-donut").find("svg").width()
-
-            // get size of chart, place it in!
-
-        };
-       // debugger;
-
-
-        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
-        var footest = "abc";
-        google.visualization.events.addListener(chart, 'ready', chartIsDrawnHandler);
-
-        chart.draw(data, options);
-        */
         
       }
 
@@ -139,6 +101,33 @@ $( document ).ready(function() {
         scrollTop: $("#main").offset().top
     }, 300);
   });
+  
+  // Put sections in dropdown
+  var daTOC = "";
+  var daLinks = $("h1, h2").each(
+  	function(){
+  	
+  		// Don't add this element if it has class "no-chapter". This allows people to exclude a heading from the TOC
+		if ( ! $(this).hasClass("no-chapter")){
+
+			// add an id to each h1 and h2 if they don't already have one
+			if ($(this).attr("id") == undefined ){
+				var daId = "id" + Math.round(Math.random() * 9999999999999999);
+				$(this).attr("id",  daId);
+			}	
+			else {
+				var daId = $(this).attr("id");
+			}
+			
+			// create html
+			 daTOC += "<li><a href='#" + daId + "'>" + $(this).text() + "</a></li>";
+		}
+  	}
+  );
+  // add daTOC to html
+  console.log(daTOC);
+  $("#sections").html(daTOC);
+  
   
 });
 
