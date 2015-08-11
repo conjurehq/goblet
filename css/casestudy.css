@@ -178,13 +178,14 @@ p  {font-size:20px; line-height:160%; color:#333; font-weight:300; margin-bottom
 		margin-right:5px;
 	}	
 	.zwide-gallery .col-xs-12 h2 {margin-top:0; font-size:20px; color:#000; line-height:140%;}
+	h1, h2, .page-header {font-size:28px;}
 	.zwide-gallery .col-xs-12 ul {margin-left:20px; padding-left:0; }
 	.zwide-gallery .col-xs-12 li {line-height:140%; margin-bottom:10px;}
 	.col-xs-12 .zoomable-thumbnail-wrapper {margin-bottom:13px; border:1px solid #ccc;}
 	.zoomable-thumbnail-wrapper:hover {box-shadow: none;} 
 	.col-xs-12 .competition-logo {margin-bottom:0;	 margin:auto; padding-bottom:10px !important; margin-top:30px;}
 	.competition-logo .img-responsive {max-height:60px; display:block; }
-	.col-xs-12 .ul-header { font-size:13px !important; color:#333;letter-spacing:0.37em; text-transform: uppercase; width:75%; margin-top:15px; }
+	.col-xs-12 .ul-header { font-size:13px !important; color:#666;letter-spacing:0.37em; text-transform: uppercase; width:75%; margin-top:15px; }
 	.competition-logo + .ul-header {margin-top:8px;}
 	.col-xs-12 ul li {margin-bottom:0px; text-align:left; line-height:140%; padding:2px;  font-size: 16px;}
 	.col-xs-12 ul {padding-left:20px;}
@@ -198,7 +199,7 @@ p  {font-size:20px; line-height:160%; color:#333; font-weight:300; margin-bottom
 		box-shadow: none ; border:0; text-decoration: none;float:none; display:block;
 	}
 	.callout-button-hint {display:block; text-align:center; width:100%;}
-
+	.giant-cta {font-size:27px;}
 	
 }
 @media (min-width: 768px) and (max-width: 991px) { 
@@ -207,6 +208,7 @@ p  {font-size:20px; line-height:160%; color:#333; font-weight:300; margin-bottom
 	.zhero-device-image {position:relative; left:30px;}
 	.giant-cta {font-size:28px;}
 	p {font-size:17px;}
+	.col-md-8 li  {font-size:14px; line-height:140%; color:#333;  }
 	.zhero-textbox-headline {font-size:34px;}
 	h1 {font-size: 30px; margin-top:60px !important;}
 	h2 {font-size:24px;}
