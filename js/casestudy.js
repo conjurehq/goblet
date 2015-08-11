@@ -45,7 +45,11 @@ var g = {};
         });
 
         
-      }
+     
+
+  
+        
+}
 
 
 
@@ -102,6 +106,8 @@ $( document ).ready(function() {
     }, 300);
   });
   
+
+  
   // Put sections in dropdown
   var daTOC = "";
   var daLinks = $("h1, h2").each(
@@ -127,6 +133,14 @@ $( document ).ready(function() {
   // add daTOC to html
   console.log(daTOC);
   $("#sections").html(daTOC);
+  
+  
+    $("#sections li a").click(function() {
+		$('html, body').animate({ 	scrollTop: $(   $(this).attr("href")  ).offset().top - 80}, 500);
+		$(".navbar-collapse").removeClass("in");
+		console.log("removeit");
+	});
+
   
   
 });
