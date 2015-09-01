@@ -207,7 +207,9 @@ p  {font-size:20px; line-height:160%; color:#333; font-weight:300; margin-bottom
 	.callout-button-hint {display:block; text-align:center; width:100%; padding-top:0;}
 	.giant-cta {font-size:27px;}
 	
+	.zhero-computer-example .zhero-video-container {height:auto;}
 	.zhero-computer-example .zhero-video-container {background-color:#ff0000;position:absolute; overflow:hidden; top:0; left:0; bottom:0; right:0;  }
+	.zhero-computer-example .zhero-video-container:after {display:block; content:"hello"; font-size:40px;}
 	.zhero-computer-example .zhero-video-container video {position:absolute; min-width:200%; min-height:200%; }
 	.zhero-computer-example .zhero-textbox {margin-top: 20px;}
 	.zhero-computer-example .zhero-device-image { 
@@ -217,6 +219,7 @@ p  {font-size:20px; line-height:160%; color:#333; font-weight:300; margin-bottom
 		text-align:center;
 		margin-left: calc(( 100% / 2 ) - 145px ); 
 	}
+	#main {margin-top:	15px;}
 	
 }
 @media (min-width: 768px) and (max-width: 991px) { 
