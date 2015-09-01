@@ -100,7 +100,7 @@ $( document ).ready(function() {
 
 
   // scroll to view
-  $("#scrolldown").click(function() {
+  $("#scrolldown, .zhero").click(function() {
     $('html, body').animate({
         scrollTop: $("#main").offset().top
     }, 300);

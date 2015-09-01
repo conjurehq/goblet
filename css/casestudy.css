@@ -143,7 +143,7 @@ p  {font-size:20px; line-height:160%; color:#333; font-weight:300; margin-bottom
 
 
 @media (max-width: 767px) { 
-	.page-header {font-size: 30px; margin-top:35px !important; border-bottom:0;  margin-bottom:0;}
+	.page-header {font-size: 30px; margin-top:70px !important; border-bottom:0;  margin-bottom:0;}
 	.navbar-default .navbar-brand   {font-size: 14px;}
 	.zpagefooter .zcredit .thumb + p {max-width: calc(100% - 100px);}	
 	.zhero-textbox {margin-top:20px; border:0;}
@@ -207,9 +207,9 @@ p  {font-size:20px; line-height:160%; color:#333; font-weight:300; margin-bottom
 	.callout-button-hint {display:block; text-align:center; width:100%; padding-top:0;}
 	.giant-cta {font-size:27px;}
 	
+	.zhero-computer-example {margin-bottom:-30px;}
 	.zhero-computer-example .zhero-video-container {height:auto;}
 	.zhero-computer-example .zhero-video-container {background-color:#ff0000;position:absolute; overflow:hidden; top:0; left:0; bottom:0; right:0;  }
-	.zhero-computer-example .zhero-video-container:after {display:block; content:"hello"; font-size:40px;}
 	.zhero-computer-example .zhero-video-container video {position:absolute; min-width:200%; min-height:200%; }
 	.zhero-computer-example .zhero-textbox {margin-top: 20px;}
 	.zhero-computer-example .zhero-device-image { 
