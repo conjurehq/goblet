@@ -83,8 +83,37 @@ p  {font-size:20px; line-height:160%; color:#333; font-weight:300; margin-bottom
 .col-md-8 li {font-size: 20px; line-height:140%; margin-bottom:5px; color:#333; font-weight:300; }
 .col-md-8 ul {margin-bottom:20px; padding-left:20px;}
 
-.col-md-8 blockquote  {border-left:0;}
-.col-md-8 blockquote p {font-size:36px;  margin-top:20px; font-weight:200; text-align:center; letter-spacing:0px; line-height: 115%;}
+.col-md-8 blockquote  {border-left:0; position:relative; margin: 140px 0 80px;;}
+.col-md-8 blockquote:before {
+  
+    
+    content: '“';
+    font-size: 400px;
+    position: absolute;
+    Font-family: times, courier, serif;
+    width: 70px;
+    left: -80px;
+    top: -140px;
+    color: #efefef;
+    z-index: 1;
+    
+}
+.col-md-8 blockquote:after {
+
+    content: '”';
+    font-size: 400px;
+    position: absolute;
+    Font-family: times, courier, serif;
+    width: 70px;
+    right: 30px;
+    top: -140px;
+    color: #efefef;
+    z-index: 1;
+}
+
+
+.col-md-8 blockquote p {font-size:36px;  margin-top:20px; font-weight:200; text-align:center; letter-spacing:0px; line-height: 115%;
+	position:relative; z-index:10;}
 .col-md-8 blockquote footer {font-size: 20px; font-weight:200; text-align:center; margin-top:-15px;}
 
 
@@ -198,8 +227,22 @@ p  {font-size:20px; line-height:160%; color:#333; font-weight:300; margin-bottom
 	.col-xs-12 li  {margin-bottom:0px; text-align:left; line-height:140%; padding:2px;  font-size: 16px;}
 	.col-xs-12 ul {padding-left:20px;}
 	.col-xs-12 .galleryrow {margin-bottom:0;}
-	.col-xs-12 blockquote p {font-size:33px; line-height:110%; color:#999; margin-top:40px;  font-style:italic;}
+	.col-xs-12 blockquote p {font-size:33px; line-height:110%; color:#767676; margin-top:40px; position:relative;   z-index:10;}
 	.col-xs-12 blockquote {padding:0;}
+	.col-md-8 blockquote:before {
+		z-index:1;
+		content: '“';
+		font-size: 300px;
+		position: absolute;
+		Font-family: times, courier, serif;
+		width: 70px;
+		left: 0;
+		top: -130px;
+		color: #efefef;
+		
+		
+		
+	}
 	.col-xs-12 blockquote footer {Font-size:16px; margin-top:-5px;}
 	.zpagefooter ul {margin-top:-10px;}
 	.callout-button, .callout-button:hover, .callout-button:visited {background-color:transparent; font-weight:bold; font-size:16px; color:#428bcb; 
