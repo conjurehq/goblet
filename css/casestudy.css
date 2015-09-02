@@ -297,9 +297,13 @@ p  {font-size:20px; line-height:160%; color:#333; font-weight:300; margin-bottom
 	.giant-cta {font-size:28px;}
 	.col-md-8 li  {font-size:18px; line-height:140%; color:#333; font-weight:300; }
 	.zhero-computer-example .zhero-device-image {padding-left:0; margin-left:7px;}
-	
 	.zhero-computer-example .zhero-video-container {position:absolute; overflow:hidden;top:0; left:0; width:100%; height: 416px;}
 	.zhero-computer-example .zhero-video-container video {position:absolute; top:-20%; left;0; width:100%;}
+
+/*	.zhero-phone-example .zhero-device-image {postion:relative; height:500px; margin-top:30px; width:435px; background-repeat: no-repeat; background-image:url('../images/hand.png'); background-size:435px 500px;}
+	.zhero-phone-example .zhero-video-container {position:absolute; overflow:hidden;top:0; left:0; width:100%; height: 530px;} */
+	.zhero-phone-example .zhero-video-container video {position:absolute; top:0; min-height:530px;}
+
 
  }
 @media (min-width: 1120px) { 
