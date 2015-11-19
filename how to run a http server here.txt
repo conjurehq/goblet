@@ -1,2 +1,0 @@
-To run as a HTTP server, go in terminal and type:
-http-server
