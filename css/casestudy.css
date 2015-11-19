@@ -29,6 +29,11 @@ h4 {font-size: 16px;}
 .zhero-computer-example .zhero-video-container {position:absolute; overflow:hidden;top:0; left:0; width:100%; height: 416px;}
 .zhero-computer-example .zhero-video-container video {position:absolute; top:-50%; left;0; width:100%;}
 
+.zhero-coverimage-example {background: #000; height: calc(100vh - 50px);} 
+.zhero-coverimage-example .zhero-video-container {display:none;}
+.zhero-coverimage-example .zhero-device-image {display:none;}
+
+
 .zhero-scrollhint { transition:background 300ms; display:inline-block; margin-top:30px; padding:10px 20px; background-color:rgba(255,255,255,0.15); color:#fff; border-radius:12px; }
 .zhero-scrollhint .glyphicon-chevron-down {transition:top 300ms; font-size:25px; line-height:0; position:relative; top:6px;}
 .zhero-scrollhint-label {position:relative; font-size:18px; font-weight:bold; color:rgba(255,255,255,0.5); padding-left:10px;}
@@ -216,10 +221,19 @@ p  {font-size:20px; line-height:160%; color:#333; font-weight:300; margin-bottom
 		width: calc(100vw - (( 100% / 2 ) - 165px ) );	
 	}
 	.zhero-scrollhint {display:none;}
+	
+	.zhero-coverimage-example .container { position: relative;
+		  top: 50%;
+		  transform: translateY(-90%);}
+	.zhero-coverimage-example .zhero-scrollhint {display:inline-block;}
+	
 	p {font-size: 16px; margin-bottom:13px;}
 	.zwide-gallery {margin-top:0; padding-top:15px; padding-bottom:0px; margin:0 20px; }
 	.glyphicon-search-container {display:none;}
 	.zoomable-thumbnail {box-shadow: inset 5px 5px rgba(0,0,0,0.5);  }
+
+
+
 
 	/* NEXT TWO CLASSE: margins in bootstrap are too sharp, this makes it a little wider to match line spacing */
 	div.col-xs-12 { padding-left: 20px; padding-right:20px; } 
@@ -284,6 +298,8 @@ p  {font-size:20px; line-height:160%; color:#333; font-weight:300; margin-bottom
 	.callout-button-hint {display:block; text-align:center; width:100%; padding-top:0;}
 	.giant-cta {font-size:27px;}
 	
+	
+	
 	.zhero-computer-example {margin-bottom:-30px;}
 	.zhero-computer-example .zhero-video-container {height:auto;}
 	.zhero-computer-example .zhero-video-container {background-color:#666;position:absolute; overflow:hidden; top:0; left:0; bottom:0; right:0;  }
@@ -302,6 +318,7 @@ p  {font-size:20px; line-height:160%; color:#333; font-weight:300; margin-bottom
 	.zhero-phone-example .zhero-video-container {background-color:#666;position:absolute; overflow:hidden; top:0; left:0; bottom:0; right:0;  }
 	.zhero-phone-example .zhero-video-container video {position:absolute; top:0; width:auto; height:100%; left:-50%;  }
 	.zhero-phone-example .zhero-textbox {margin-top: 20px;}
+	
 	
 
 
